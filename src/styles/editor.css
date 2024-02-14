@@ -1,0 +1,7 @@
+.tiptap p.is-empty::before {
+	@apply text-slate-400 dark:text-slate-500;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}

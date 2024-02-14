@@ -1,0 +1,35 @@
+.backdrop {
+	@apply backdrop-blur-xs absolute left-0 top-0 z-10 min-h-screen w-screen bg-black/75;
+
+	animation: backdrop-fade-in 0.3s ease-out;
+}
+
+.modal {
+	@apply absolute left-1/2 top-1/2 h-3/4 w-2/3 max-w-4xl -translate-x-1/2 -translate-y-1/2 rounded-lg border border-slate-200 bg-slate-50 p-4 text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 origin-bottom;
+
+	animation: modal-fade-in 0.3s ease-out;
+}
+
+.modal-close-btn {
+	@apply absolute top-2 right-2 p-1 rounded-md text-slate-700 hover:bg-slate-200 dark:text-slate-400 hover:dark:bg-slate-700;
+}
+
+@keyframes backdrop-fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes modal-fade-in {
+	0% {
+		opacity: 0;
+		scale: 0.8;
+	}
+	100% {
+		opacity: 1;
+		scale: 1;
+	}
+}

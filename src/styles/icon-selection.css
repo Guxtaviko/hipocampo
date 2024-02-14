@@ -1,0 +1,7 @@
+.icon-searchbox {
+	@apply w-full rounded-md border border-slate-300 p-2 text-sm  text-slate-700 placeholder-slate-400 focus:border-slate-500 focus:outline-none dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300 focus:dark:border-slate-400;
+}
+
+.icon-btn {
+	@apply grid h-8 w-8 place-items-center rounded bg-slate-100 transition-colors hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300;
+}

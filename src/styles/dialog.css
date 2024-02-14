@@ -1,0 +1,20 @@
+.dialog {
+	@apply absolute rounded border border-slate-200 bg-slate-100 p-4 text-slate-900 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 z-20;
+
+	animation: dialog-appear 0.3s ease-out;
+}
+
+.dialog-headline {
+	@apply text-sm font-semibold;
+}
+
+@keyframes dialog-appear {
+	0% {
+		opacity: 0;
+		transform: translateY(-1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

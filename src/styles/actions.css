@@ -1,0 +1,15 @@
+.action-btn {
+	@apply p-3 flex gap-2 items-center justify-center rounded-md border border-slate-300 text-slate-900 hover:bg-slate-200 text-sm dark:border-slate-600 dark:text-slate-200 hover:dark:bg-slate-700;
+}
+
+.searchbox {
+	@apply py-1 px-2 flex gap-2 items-center rounded-md border border-slate-300 text-slate-900 dark:border-slate-600 dark:text-slate-200;
+}
+
+.searchbox-input {
+	@apply w-80 bg-transparent py-1 focus:outline-none placeholder-slate-400 text-slate-700 dark:text-slate-300;
+}
+
+.searchbox-btn {
+	@apply p-2 flex gap-2 items-center justify-center rounded-md border border-slate-300 text-slate-900 hover:bg-slate-200 text-sm dark:border-slate-600 dark:text-slate-200 hover:dark:bg-slate-700;
+}
