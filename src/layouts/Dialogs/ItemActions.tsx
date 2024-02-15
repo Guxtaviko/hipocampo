@@ -1,4 +1,4 @@
-import { PencilIcon, TrashIcon } from 'lucide-react'
+import { TrashIcon } from 'lucide-react'
 import { Dialog, DialogProps } from './Dialog'
 
 interface ItemActionsProps extends DialogProps {
